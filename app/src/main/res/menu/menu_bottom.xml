@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/picture1Fragment" android:title="Item" android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/picture2Fragment" android:title="Item" android:icon="@drawable/ic_baseline_create_24"/>
+    <item android:id="@+id/picture3Fragment" android:title="Item" android:icon="@drawable/ic_baseline_settings_24"/>
+</menu>

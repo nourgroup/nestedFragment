@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_embedded"
+    app:startDestination="@id/embeddedPicture1Fragment">
+    <fragment
+        android:id="@+id/embeddedPicture1Fragment"
+        android:name="com.ngplus.uploadphoto.embedded.EmbeddedPicture1Fragment"
+        android:label="EmbeddedPicture1Fragment"
+        tools:layout="@layout/embedded_fragment1_picture">
+
+    </fragment>
+    <fragment
+        android:id="@+id/embeddedPicture2Fragment"
+        android:name="com.ngplus.uploadphoto.embedded.EmbeddedPicture2Fragment"
+        android:label="EmbeddedPicture2Fragment"
+        tools:layout="@layout/embedded_fragment2_picture"/>
+    <fragment
+        android:id="@+id/embeddedPicture3Fragment"
+        android:name="com.ngplus.uploadphoto.embedded.EmbeddedPicture3Fragment"
+        android:label="EmbeddedPicture3Fragment"
+        tools:layout="@layout/embedded_fragment3_picture"/>
+</navigation>
