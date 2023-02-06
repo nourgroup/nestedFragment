@@ -42,22 +42,6 @@ class EmbeddedPicture2Fragment : Fragment(){
         Log.i("tuto_picture","onCreateView ${javaClass.name}")
         // Inflate the layout for this fragment
         _binding = EmbeddedFragment2PictureBinding.inflate(inflater, container, false)
-        /*observer = MyLifecycleObserver(requireActivity().activityResultRegistry){
-            val selectedImageUri: Uri? = it
-            Log.i("tuto_photo","fired : ${javaClass.name}")
-            try {
-                selectedImageBitmap = MediaStore.Images.Media.getBitmap(
-                    requireActivity().contentResolver,
-                    selectedImageUri
-                )
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-            _binding.IVImage.setImageBitmap(
-                selectedImageBitmap
-            )
-        }
-        lifecycle.addObserver(observer)*/
         val uri =  (parentFragment as Picture2Fragment).uri
         if (uri != null) {
 

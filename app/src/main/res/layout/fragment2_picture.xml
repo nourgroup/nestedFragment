@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".Picture2Fragment"
     android:orientation="vertical"
-    android:layout_marginTop="40dp">
+    android:layout_marginTop="40dp"
+    android:background="@color/colorPrimary">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -22,12 +23,12 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="b2"
+            android:text="upload picture"
             android:id="@+id/b2"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="b3"
+            android:text="take picture"
             android:id="@+id/b3"/>
     </LinearLayout>
     <ImageView

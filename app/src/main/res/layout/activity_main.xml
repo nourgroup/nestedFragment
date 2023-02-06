@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
         android:backgroundTint="@color/colorPrimary"
-        android:text="SELECT IMAGE"
+        android:text="SELECT IMAGE (Activity)"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
