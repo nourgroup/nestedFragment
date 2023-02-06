@@ -57,13 +57,13 @@ class MainActivity : FragmentActivity() {
         Timber.d("$foo$bar")
 
         // TimberArgCount
-        Timber.d("%s %s", "arg0")
+        //Timber.d("%s %s", "arg0")
         Timber.d("%s", "arg0", "arg1")
         //Timber.tag("tag").d("%s %s", "arg0")
         //Timber.tag("tag").d("%s", "arg0", "arg1")
 
         // TimberArgTypes
-        Timber.d("%d", "arg0")
+        //Timber.d("%d", "arg0")
         //Timber.tag("tag").d("%d", "arg0")
 
         // TimberTagLength
